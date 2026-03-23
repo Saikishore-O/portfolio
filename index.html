@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <h2 class="logo">Portfolio</h2>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section home">
+      <div class="container home-container">
+        <div class="profile">
+          <img src="images\sai-kishore.jpeg" alt="Profile" />
+        </div>
+
+        <div class="content">
+          <h1>AI & Data Analyst</h1>
+          <p>
+            Strong interest in data analysis and intelligent systems. Focused on
+            turning data into meaningful insights for better decision-making.
+          </p>
+          <a href="#projects" class="btn">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate AI and Data Analyst with a strong interest in
+          applying machine learning and data-driven techniques to solve
+          real-world problems. I enjoy working with data — cleaning, analyzing,
+          and modeling it — to extract meaningful insights that can support
+          informed decision-making. I have completed certifications such as AI
+          Data Analyst from Tech Mahindra SMART Academy and Introduction to
+          Artificial Intelligence from Simplilearn, which have strengthened my
+          understanding of AI and data analytics concepts. Some of my projects
+          include building a machine learning model to predict aircraft accident
+          injury levels and developing an email spam classifier using NLP and
+          machine learning techniques. I am adaptable, goal-oriented, and eager
+          to grow professionally while contributing to data-driven teams.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill">Python</div>
+          <div class="skill">Machine Learning</div>
+          <div class="skill">SQL</div>
+          <div class="skill">Power BI</div>
+          <div class="skill">Data Visualization</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>
+              <a
+                class="project-link"
+                href="https://github.com/Saikishore-O/Aircraft-Accident-Injury-Level-Prediction-Using-Machine-Learning.git"
+              >
+                Aircraft Accident Injury Level Prediction Using Machine
+                Learning</a
+              >
+            </h3>
+            <p>
+              This project applies machine learning to analyze and predict
+              injury levels in aircraft accidents using the ICAO Air Accidents
+              dataset (2008–2022). After preprocessing and encoding key features
+              such as aircraft, operator, and location, a Linear Regression
+              model was trained to estimate injury severity.
+            </p>
+            <span>Python • Pandas • NumPy • Scikit-learn • Matplotlib</span>
+          </div>
+
+          <div class="project-card">
+            <h3>
+              <a class="project-link" href=""
+                >Email Spam Classification using NLP & Machine Learning</a
+              >
+            </h3>
+            <p>
+              This project focuses on building a machine learning-based email
+              spam classifier. Text data from emails was preprocessed and
+              transformed using techniques such as tokenization, stopword
+              removal, and feature extraction. Both Naive Bayes and Support
+              Vector Machine (SVM) models were trained to classify emails as
+              spam or non-spam. Model performance was evaluated using metrics
+              such as precision and recall to ensure reliable detection of spam
+              emails.
+            </p>
+            <span>Python • Pandas • NumPy • Scikit-learn</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="links">
+          <a href="https://linkedin.com/in/saikishoreonteddula">LinkedIn</a>
+          <a href="https://github.com/Saikishore-O">GitHub</a>
+          <a href="mailto:techsaikishore@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
